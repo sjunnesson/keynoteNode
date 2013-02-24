@@ -7,7 +7,7 @@ var app = require('http').createServer(handler)
 
   io.set('transports', ['xhr-polling']);
 
-app.listen(6789);
+app.listen(3000);
 
 
 function handler (req, res) {
